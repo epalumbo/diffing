@@ -24,9 +24,10 @@ import static org.springframework.data.mongodb.core.query.Query.query;
  * thus separating business model from persistence issues. This way, changes in business model are
  * less error-prone regarding undesired schema changes at the database-level.
  * <p>
- * Many NoSQL databases could do this job well. MongoDB has been chosen since its setup as embedded database
- * is pretty straightforward in Spring Boot. A NoSQL database system like MongoDB enables the system to easily
- * scale up, as sharding is available almost without application-level changes.
+ * Many NoSQL databases could do this job well. A NoSQL database system like MongoDB enables the system
+ * to easily scale up, as clustering is available almost without application-level changes.
+ * Also, since its setup as embedded database is pretty straightforward in Spring Boot, it's a convenient
+ * choice for this use case.
  * <p>
  * Note that we're using an embedded version of the database system that is not production-ready,
  * so it's not perfect to ensure integration testing, but good enough for the purposes of this development.

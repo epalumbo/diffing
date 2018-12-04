@@ -25,7 +25,7 @@ public class DiffReport {
         this.insights = insights;
     }
 
-    static DiffReport of(Status status) {
+    public static DiffReport of(Status status) {
         return new DiffReport(status, ImmutableList.of());
     }
 

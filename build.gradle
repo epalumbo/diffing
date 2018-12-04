@@ -18,7 +18,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'jacoco'
 
 group = 'com.calipsoide'
-version = '0.0.1'
+version = '0.1.0'
 sourceCompatibility = 1.8
 
 repositories {

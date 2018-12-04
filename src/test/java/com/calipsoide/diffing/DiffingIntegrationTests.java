@@ -20,7 +20,7 @@ import static org.springframework.web.reactive.function.BodyInserters.fromObject
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @AutoConfigureWebTestClient
-class DiffingLogicApplicationTests {
+class DiffingIntegrationTests {
 
     @Autowired
     private WebTestClient webTestClient;
